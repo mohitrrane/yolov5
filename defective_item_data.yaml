@@ -1,0 +1,9 @@
+train: defective/images/train/ 
+val: defective/images/val/
+test: defective/images/test/
+
+# number of classes
+nc: 9
+
+# class names
+names: [ "cavity", "Crack", "Continuous line defect", "Excessive flash", "Rough surface and cracks", "Flash", "Void", "Rough surface", "Keyhole"]
